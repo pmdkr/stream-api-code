@@ -2,10 +2,10 @@ package com.pramod.java8StreamApi.ClassLevelStreamExample;
 
 public class OrderTransections {
 
-    String category;
-    Long amount;
+    private final String category;
+    private final int amount;
 
-    OrderTransections(String category, Long amount) {
+    OrderTransections(String category, int amount) {
         this.category = category;
         this.amount = amount;
     }
@@ -14,7 +14,15 @@ public class OrderTransections {
         return category;
     }
 
-    public Long getAmount() {
+    public int getAmount() {
         return amount;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderTransections{" +
+                "category='" + category + '\'' +
+                ", amount=" + amount +
+                '}';
     }
 }
