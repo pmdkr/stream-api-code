@@ -1,4 +1,4 @@
-package com.pramod.java8StreamApi.StringStreamAPI;
+package com.pramod.java8StreamApi.ClassLevelStreamExample;
 
 import java.util.Arrays;
 import java.util.Comparator;

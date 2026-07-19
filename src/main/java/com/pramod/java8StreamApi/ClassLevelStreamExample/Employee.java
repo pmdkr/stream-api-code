@@ -1,4 +1,4 @@
-package com.pramod.java8StreamApi.StringStreamAPI;
+package com.pramod.java8StreamApi.ClassLevelStreamExample;
 
 public class Employee {
     private String name;
